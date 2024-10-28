@@ -93,6 +93,7 @@ app = App(app_ui, server)
 ```
 
 This mini-app runs like this:
+
 ![alt text](img/display.png)
 
 Moreover, we can make the sortable widget *updatable* by passing `updatable=True` to the `@make()` decorator. This allows the order to be updated by using the `update()` function.
