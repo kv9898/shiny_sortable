@@ -9,7 +9,7 @@ pip install shiny-sortable
 
 # Basic Usage
 
-The easiest way to build a sortable shiny widget is to use the `@make()` decorator.
+The easiest way to build a sortable shiny widget is to use the `@make()` decorator. There is a playground for the example below at my [website](https://rubuky.com/tool/2024-10-28-ShinySortable/).
 
 The `@make()` decorator has three optional arguments:
 
