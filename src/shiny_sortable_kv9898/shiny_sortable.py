@@ -64,12 +64,13 @@ def output(outputID):
     return tags.script(script)
 
 # Define a decorator to wrap functions and make their output sortable
-def make(ID="inputID", updatable=False):
+def make(ID="inputID", dataID="data-id" ,updatable=False):
     """
     Decorator to make a UI component sortable.
 
     Args:
         ID (str): The keyword argument name to extract the input ID from, defaults to 'inputID', if not found, defaults to the first argument.
+        dataID (str): The attribute used to store data-id on sortable items.
         updatable (bool): Whether the sortable order is updatable via Shiny.
     """
     def decorator(func):
@@ -83,7 +84,7 @@ def make(ID="inputID", updatable=False):
                 return tags.div(*div)
 
             # Append input and output scripts if applicable
-            div.append(input(input_id))
+            div.append(input(input_id, dataID=dataID))
             if updatable:
                 div.append(output(input_id))
             return tags.div(*div)
