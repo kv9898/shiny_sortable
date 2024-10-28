@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/shiny_sortable/__init__.py
+src/shiny_sortable/shiny_sortable.py
+src/shiny_sortable.egg-info/PKG-INFO
+src/shiny_sortable.egg-info/SOURCES.txt
+src/shiny_sortable.egg-info/dependency_links.txt
+src/shiny_sortable.egg-info/requires.txt
+src/shiny_sortable.egg-info/top_level.txt
