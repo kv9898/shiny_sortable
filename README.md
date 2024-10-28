@@ -1,6 +1,6 @@
 # Shiny-sortable
 
-A Python library to add SortableJS widgets to Shiny UI.
+A Python library to add SortableJS widgets to Shiny UI, which is a Python wrapper of the [SortableJS](https://github.com/SortableJS/Sortable) library.
 
 # Install
 ```
