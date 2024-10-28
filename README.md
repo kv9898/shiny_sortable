@@ -2,6 +2,11 @@
 
 A Python library to add sortable functionality to Shiny UI elements.
 
+# Install
+```
+pip install shiny-sortable
+```
+
 # Basic Usage
 
 The easiest way to build a sortable shiny widget is to use the `@make()` decorator.
